@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+ body{
+  background-image: url(https://kq-storage.s3.ap-south-1.amazonaws.com/Github/astronaut/sky-moon-bg%5B1%5D.png);
+  height: 100vh;
+  width: 100vw;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+} 
+#astro1{
+  width: 500px;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  animation: floating 4s infinite;
+}
+@keyframes floating{
+  0%{
+    transform: translateY(0px);
+
+  }
+  50%{
+    transform: translateY(30px);
+  }
+}
+#astro2{
+  width: 370px;
+  position: absolute;
+  top: 49%;
+  left: 35%;
+  animation: floating1 4s infinite;
+}
+@keyframes floating1{
+  0%{
+    transform: translateY(0px);
+
+  }
+  50%{
+    transform: translateY(-30px);
+  }
+}
+/* .main_box{
+  width: 450px;
+  height: 490px;
+  background-color: white;
+  right: 6%;
+  top: 19%;
+  position: absolute;
+  border-radius: 9px;
+} */
+form{
+  position: absolute;
+    top: 10%;
+    left: 61%;
+    width: 363px;
+    height: 700px;
+    padding: 0 75px;
+    background-color: white;
+  
+}
+label{
+  display: block;
+  font-size: 16px;
+  margin: 20px 0 20px 0
+}
+.block_display{
+  display: block;
+}
+h1{
+  
+}
